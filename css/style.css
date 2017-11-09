@@ -7,12 +7,13 @@
 }
 
 .nav__container {
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     height: 10%;
     padding: 5%;
     background-color: #3498db;
     overflow: hidden;
+    z-index: 1;
 }
 
 .nav__container img {
@@ -36,6 +37,7 @@
 .main {
     padding: 5%;
     position: relative;
+    margin-top: 13%;
 }
 
 .main__img {
@@ -55,6 +57,24 @@
     color: white;
     text-transform: uppercase;
     font-size: 0.8em;
+}
+
+.main__bolas {
+    width: 100%;
+    margin: 2% 41% 8% 41%;
+}
+
+.main__bola {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin: 0 1%;
+    background: grey;
+    border-radius: 50%;
+}
+
+.main__bola:nth-child(1) {
+    background: #3498db;
 }
 
 .main__img-caption-red {
